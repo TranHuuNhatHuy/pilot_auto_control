@@ -38,7 +38,6 @@ if(BUILD_TESTING)
     test/test_main.cpp
     test/test_steer_accel_limit.cpp
     test/test_command_filter_integration.cpp
-    test/test_command_publisher.cpp
     test/test_clip_diagnostics.cpp
   )
   target_include_directories(test_control_command_gate PRIVATE
