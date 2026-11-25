@@ -104,7 +104,8 @@ Control make_sample_control()
   return cmd;
 }
 
-// Confirms pubs created by CommandPublisher have same QoS as specified in component interface specs.
+// Confirms pubs created by CommandPublisher have same QoS as specified in component interface
+// specs.
 TEST(CommandPublisherQosTest, OutputPublishersMatchComponentInterfaceSpecs)
 {
   // Arrange
@@ -147,7 +148,7 @@ TEST(CommandPublisherQosTest, OutputPublishersMatchComponentInterfaceSpecs)
   }
 }
 
-// Confirms a control command published with a VOLATIVE QoS is delivered to a sub
+// Confirms a control command published with a VOLATILE QoS is delivered to a sub
 // that subs after command is published.
 TEST(CommandPublisherQosTest, DeliversControlCommandToVolatileSubscriber)
 {
